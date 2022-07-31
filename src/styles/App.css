@@ -1,0 +1,49 @@
+.app{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    color: greenyellow;
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+}
+
+.column{
+    display: flex;
+    
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5rem;
+}
+
+.scoreboard{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    position: absolute;
+    top: 12%;
+}
+
+.card{
+    padding: 0;
+    font-size: 120px;
+    border: 2px solid blue;
+    background-color: darkblue;
+    text-align: center;
+    padding: 2rem;
+    cursor: pointer;
+}
